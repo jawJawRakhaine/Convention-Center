@@ -44,7 +44,7 @@
     position: absolute;
     top: -15px;
     right: 50px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 10px;
     background-color: tomato;
 }
@@ -60,6 +60,7 @@ hr{
     width: 200px;
     margin: 5px auto;
     border: 5px solid tomato;
+    border-radius: 10px;
 }
 .fas,.far{
     color: tomato;
