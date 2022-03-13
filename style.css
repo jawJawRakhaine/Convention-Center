@@ -1,0 +1,43 @@
+/* btn */
+.btn:focus, .btn-close:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    
+}
+/* 3rd plan */
+
+.hot-body{
+    background-image: url(icons/watermark.svg); background-repeat: no-repeat; background-position: right;
+    position: relative;
+    border-radius: 30px;
+    height: 550px;
+}
+.hot{
+    position: absolute;
+    top: -15px;
+    right: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: tomato;
+}
+/* accordion */
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+h1 span{
+    color: tomato;
+}
+hr{
+    width: 200px;
+    margin: 5px auto;
+    border: 5px solid tomato;
+}
+.fas,.far{
+    color: tomato;
+}
+/* footer */
+footer{
+    background-color: black;
+    height: 200px !important;
+}

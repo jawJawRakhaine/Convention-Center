@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apon Convention Center</title>
+    <title>Zaara Convention Center</title>
     <!-- bootstrap cdn stylesheet -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -17,6 +17,8 @@
       src="https://kit.fontawesome.com/cd557ce07f.js"
       crossorigin="anonymous"
     ></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- navbar -->
@@ -25,7 +27,7 @@
         class="fixed-top d-flex justify-content-evenly navbar navbar-expand-lg navbar-light bg-light"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Apon Convention Center</a>
+          <a class="navbar-brand" href="index.html">Zaara Convention Center</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -38,7 +40,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="ms-sm-2 collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
@@ -90,7 +92,7 @@
             ></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active h-100">
               <img src="images/banner.png" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="h1">The perfect venue for your next event</h5>
@@ -103,9 +105,9 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/banner.png" class="d-block w-100" alt="..." />
+              <img height="773" src="images/banner2.jpeg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h1>World first class auditorium and biggest convention hall.</h5>
                 <p>
                   Some representative placeholder content for the second slide.
                 </p>
@@ -115,9 +117,9 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/banner.png" class="d-block w-100" alt="..." />
+              <img height="773" src="images/banner.png" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+                <h1>We capture your happiness moment in every single second</h1>
                 <p>
                   Some representative placeholder content for the third slide.
                 </p>
@@ -153,7 +155,12 @@
 
     <section>
       <div class="container my-5">
-        <h1 class="text-center">We collect you happy moments</h1>
+        <h1 class="text-center text header">We capture your every happy moments</h1>
+        <hr>
+        <div class="w-50 mt-5 mx-auto alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Offer!</strong> Limited time offer. Hurry up!
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
         <div class="row">
           <div class="col-sm-6 d-flex align-items-center mt-5">
             <div class="card">
@@ -165,8 +172,8 @@
               <div class="card-body">
                 <h5 class="card-title h1">Every moment is Precious</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  
+                  We never know what life will give us from moment to moment. Therefore, it is best to relax and just let life flow. Suffering, just like happiness and joy, is part of the weave of life. One can easily tire if life is lived engaging in every battle or settling every score.
                 </p>
                 <a href="#" class="btn btn-primary"
                   >Explore our album
@@ -180,10 +187,11 @@
     </section>
     <!-- our packages -->
     <section class="container my-5">
-      <h1 class="text-center">Our package</h1>
-      <div class="row gap-0 mt-5">
+      <h1 class="text-center">Our packages</h1>
+      <hr>
+      <div class="row mt-5">
         <!-- 1st plan -->
-        <div class="col-lg-3 col-md-6 border-0 p-5">
+        <div class="col-lg-3 col-md-6 p-5">
           <div class="card-body">
             <h2 class="card-title">$300</h2>
             <h4>Business fair</h4>
@@ -197,14 +205,13 @@
                 <span><i class="fa fa-check-circle me-1" aria-hidden="true"></i>Decoration design</span> <br>
                 <span><i class="fa fa-check-circle me-1" aria-hidden="true"></i>Per day bill</span>
             </div>
-            <img src="icons/arrow-forward 1.svg" alt="" />
           </div>
           <div class="d-flex justify-content-center border-0 shadow-0">
             <button class="btn btn-light text-primary fw-bold rounded-pill">Choose Plan</button>
           </div>
         </div>
         <!-- 2nd plan -->
-        <div class="col-lg-3 col-md-6 border-0 p-5">
+        <div class="col-lg-3 col-md-6 p-5">
           <div class="card-body">
             <h2 class="card-title">$500</h5>
             <h4>wedding basic</h4>
@@ -218,18 +225,19 @@
             </div>
           </div>
           <div class="d-flex justify-content-center border-0 shadow-0">
-            <button class="btn btn-light text-primary fw-bold rounded-pill">Choose Plan</button>
+            <button class="mt-5 btn btn-light text-primary fw-bold rounded-pill">Choose Plan</button>
           </div>
         </div>
         <!-- 3rd plan -->
-        <div class="col-lg-3 col-md-6 border-0 bg-primary rounded-3 p-5 text-light" style="background-image: url(icons/watermark.svg); background-repeat: no-repeat; background-position: right;">
+        <div class="hot-body col-lg-3 col-md-6 border-0 bg-primary p-3 text-light" style="">
+          <h3 class="hot">Hot</h3>
           <div class="card-body">
-            <h2 class="card-title">$800</h2>
-            <h4>Wedding plus</h4>
+            <h1 class="card-title h-1">$800</h1>
+            <h3>Wedding plus</h3>
             <p class="card-text">
                 For most weddings with premium plans.
             </p>
-            <div>
+            <div class="">
                 <span><i class="fa fa-check-circle me-1" aria-hidden="true"></i>Full space access</span> <br>
                 <span><i class="fa fa-check-circle me-1" aria-hidden="true"></i>Dedicated team</span> <br>
                 <span><i class="fa fa-check-circle me-1" aria-hidden="true"></i>Buffet food</span> <br>
@@ -237,12 +245,12 @@
                 <span><i class="fa fa-check-circle me-1" aria-hidden="true"></i>Pay as plan</span>
             </div>
           </div>
-          <div class="d-flex justify-content-center border-0 shadow-0">
-            <button class="btn btn-light w-100 text-primary fw-bold rounded-pill">Choose Plan</button>
+          <div class="d-flex mt-3 justify-content-sm-start justify-content-center border-0 shadow-0">
+            <button class="mt-5 btn btn-light w-100 text-primary fw-bold rounded-pill">Choose Plan</button>
           </div>
         </div>
         <!-- 4th plan -->
-        <div class="col-lg-3 col-md-6 p-5 border-0">
+        <div class="col-lg-3 col-md-6 p-5">
           <div class="card-body">
             <h2 class="card-title">$1200</h2>
             <h4>Corporate event</h4>
@@ -259,7 +267,7 @@
             </div>
           </div>
           <div class="d-flex justify-content-center border-0 shadow-0">
-            <button class="btn btn-light text-primary fw-bold rounded-pill">Choose Plan</button>
+            <button class="mt-5 btn btn-light text-primary fw-bold rounded-pill">Choose Plan</button>
           </div>
         </div>
       </div>
@@ -267,7 +275,8 @@
     <!-- testimonials -->
      <section class="container my-5 mt-lg-5 mt-md-5">
       <div class="text-center mb-lg-5 mb-md-5">
-        <h1>Happy clients says</h1>
+        <h1>Happy <span>clients</span> say</h1>
+        <hr>
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <!-- 1st person -->
@@ -286,13 +295,13 @@
                   alt="..."
                 />
               </div>
-              <div class="text-center">
+              <div class="text-center mt-2 stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
-                <h5 class="client-name">Regina Miles</h5>
+                <h5 class="client-name mt-2">Regina Miles</h5>
                 <h5 class="client-occupation">Banker</h5>
               </div>
             </div>
@@ -314,13 +323,13 @@
                   alt="..."
                 />
               </div>
-              <div class="text-center">
+              <div class="text-center mt-2">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
-                <h5 class="client-name">Regina Miles</h5>
+                <h5 class="client-name mt-2">Regina Miles</h5>
                 <h5 class="client-occupation">Banker</h5>
               </div>
             </div>
@@ -343,13 +352,13 @@
                   alt="..."
                 />
               </div>
-              <div class="text-center">
+              <div class="text-center mt-2">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
-                <h5 class="client-name">Regina Miles</h5>
+                <h5 class="client-name mt-2">Regina Miles</h5>
                 <h5 class="client-occupation">Banker</h5>
               </div>
             </div>
@@ -361,7 +370,8 @@
     <section class="container my-5">
       <div class="row">
         <div class="col-sm-12 text-center mt-5">
-          <h1>Frequently Asked Questions</h1>
+          <h1>Frequently Asked <span>Questions</span> </h1>
+          <hr>
         </div>
         <div
           class="d-flex align-items-center justify-content-lg-evenly row row-cols-1 row-cols-md-3 g-3"
@@ -472,12 +482,28 @@
             </div>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <img class="img-fluid rounded-3" src="images/faq.webp" alt="" srcset="" />
+            <img class="img-fluid rounded-3" src="images/faq.webp" alt="" />
           </div>
         </div>
       </div>
     </section>
+    <!-- find us -->
+    <div>
+      <h1 class="mt-5 text-center">Get our <span>location</span> </h1>
+      <hr>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0809998381364!2d90.41096791538843!3d23.780129784574772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a12ba30689%3A0x165599d38ab4ab49!2sZaara%20Convention%20Center!5e0!3m2!1sen!2sbd!4v1647150718405!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
     <!-- footer -->
+    <footer class="mt-0 container-fluid text-white d-flex justify-content-around align-items-center">
+      <div class="">
+        <p> <i class="fa fa-copyright" aria-hidden="true"></i> 2022 | All Right Reserved | Zaara Convention Center </p>
+      </div>
+      <div class="">
+        <h2 class="d-flex flex-column">Get the app</h2>
+        <a href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849?ls=1" target="_blank"><img src="app-icons/istore.svg" alt=""></a>
+        <img width="135" height="39" src="app-icons/android.png" alt="">
+      </div>
+    </footer>
     <!-- bootstrap cdn js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
