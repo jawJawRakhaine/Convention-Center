@@ -1,3 +1,8 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
 /* btn */
 .btn:focus, .btn-close:focus{
     outline: none !important;
@@ -53,7 +58,7 @@
     box-shadow: none;
     border-color: rgba(0,0,0,.125);
 }
-h1 span{
+span{
     color: tomato;
 }
 hr{
