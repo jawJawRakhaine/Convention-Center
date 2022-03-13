@@ -4,20 +4,48 @@
     box-shadow: none !important;
     
 }
+/* offer alert */
+.fa-gift{
+    color: #3F87F5;
+}
+.offer-parent{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+.offer{
+    border-left: 7px solid #3F87F5;
+    border-radius: 2px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+/* plan */
+.fa-check-circle{
+    color: #5243C2;
+    font-size: 20px;
+}
 /* 3rd plan */
-
-.hot-body{
-    background-image: url(icons/watermark.svg); background-repeat: no-repeat; background-position: right;
+.lh{
+    line-height: 1.7rem;
+}
+/* hot offer 3rd plan card */
+.offer-body{
+    background-color: #3F87F5;
+    background-image: url(icons/watermark.svg); 
+    background-repeat: no-repeat; 
+    background-position: right;
     position: relative;
     border-radius: 30px;
-    height: 550px;
+    height: 500px;
+    line-height: 30px;
 }
-.hot{
+.offer-txt{
     position: absolute;
     top: -15px;
     right: 50px;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
     background-color: tomato;
 }
 /* accordion */
